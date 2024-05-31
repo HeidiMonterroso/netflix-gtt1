@@ -1,0 +1,243 @@
+@font-face {
+    font-family: 'Netflix';
+    src: url('../../fonts/AvenirNextLTPro-Regular.otf');
+    font-weight: 400;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: 'Netflix';
+    src: url('../../fonts/AvenirNextLTPro-Regular.otf');
+    font-weight: 400;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: 'Netflix';
+    src: url('../../fonts/AvenirNextLTPro-Bold.otf');
+    font-weight: 700;
+    font-style: normal;
+  }
+
+  /* general reset */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: content-box;
+}
+
+/* inicio style detalle-de-serie */
+
+body{
+    background-color: black;
+    margin: 0;
+    color: azure;
+    font-family: netflix;
+}
+
+header{
+    background-color: black;
+}
+
+
+.backbut{
+  margin: 8px 8px;
+}
+
+
+
+
+.detallevid video{
+  width: 100%;
+  height: auto;
+  
+}
+
+.titleMa{
+  margin-left: 15px;
+  margin-top: 15px;
+}
+
+.listavid ul{
+  margin: 10px 15px;
+  display: flex;
+  gap: 40px;
+  align-items: left;
+  list-style: none;
+  color: gray; 
+}
+
+
+.firsttag{
+  display: inline-flex;
+  gap: 4px;
+}
+
+.firsttag img:last-child{
+  margin-bottom: 2px;
+}
+
+
+
+.fcoin{
+  color: rgb(143, 234, 143);
+  font-weight: 900;
+  
+}
+
+
+.button-rep{
+  border: 2px solid black;
+  width: 97.1%;
+  display: flex;
+  justify-content: center;
+  gap: 3px; 
+  margin-left: 15px; 
+  padding-top: 5px;
+  padding-bottom: 5px; 
+  cursor: grab;
+}
+
+.buttons h2{
+  font-size:larger;
+  font-weight: 700;
+  padding-top: 4.1px;
+}
+
+.button-des{
+  border: 2px solid black;
+  background-color: hsl(0, 1%, 21%);
+  width: 97.1%;
+  display: flex;
+  justify-content: center;
+  color: white; 
+  margin-top: 12px;
+  margin-left: 15px; 
+  padding-top: 10px;
+  padding-bottom: 5px; 
+  cursor: grab;
+  gap: 3px
+}
+
+
+.descrip{
+  color: rgb(250, 247, 247);
+  margin-top: 20px;
+  margin-left: 15px;
+  margin-right: 23px;
+  font-size: larger;
+  text-align: justify;
+}
+
+.credits{
+  color: grey;
+  margin: 15px 15px 15px 15px;
+  font-size:large;
+}
+
+.share ul{
+  display: flex;
+  gap: 35px;
+  color: grey;
+  align-items: left;
+  margin-top: 25px;
+  margin-left: 15px;
+  list-style: none;
+}
+
+
+.tagsc{
+  margin-left: 17px;
+}
+
+li:last-child img{
+  margin-left: 10px;
+}
+
+.share li:hover{
+  color: rgb(225, 215, 215);
+  cursor: grab;
+}
+
+.list-content{
+  white-space: nowrap;
+  overflow-x: auto;
+  margin-bottom: 10px;
+}
+
+.col{
+  display: inline-block;
+  margin-left: 15px;
+}
+
+
+.content h1{
+  margin-left: 15px;
+  font-size: x-large;
+}
+
+.content h1:hover{
+  color: rgb(240, 229, 229);
+  cursor: grab;
+}
+
+.sim-cont img{
+  width: 192px;
+  height: 300px;
+}
+
+.footer {
+  /* border: 1px solid red; */
+  position: sticky;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: black;
+  padding: 1em 0 0;
+}
+
+
+.tab-list {
+  margin: 0;
+  padding: 0;
+  display: grid;
+  grid-auto-flow: column;
+  list-style: none;
+  color: #6e6e6e;
+  padding-bottom: 1em;
+}
+.tab-list a {
+  color: #6e6e6e;
+  text-decoration:  none;
+}
+
+.tab-item {
+  text-align: center;
+  font-size: .9em;
+}
+
+.tab-item svg {
+  display: block;
+  margin: auto;
+}
+
+.tab-item path{
+  fill: #6e6e6e;
+}
+
+
+.tab-item:hover :is(path, span) {
+ fill: white;
+ color: white;
+}
+
+
+
+.list-title:hover{
+ color: rgb(231, 225, 225);
+ cursor: grab;
+}
+
+
+
+
+
+
