@@ -1,6 +1,6 @@
 # Recreando Netflix
 
-**Diseñado con 💗 por [leonidasesteban.com](https://leonidasesteban.com/)**
+**Diseñado con 💗 por [HeidiMonterroso.com](https://Heidimonterroso.com/)**
 
 ### Colores
 
